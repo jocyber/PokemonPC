@@ -1,4 +1,2 @@
-Setup:
-	npm --init
-	npm install typescript --save-dev
-	npx tsc --init
+Execute commands inside docker container:
+	docker run -it CONTAINER_ID sh
